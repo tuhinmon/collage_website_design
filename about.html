@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>collage website design </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- header section -->
+    <section class="sub-header">
+        <nav>
+            <img src="./logo.png" alt="logo">
+            <div class="nav-item" id="nav-link">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+
+                </ul>
+
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+    <!-- about us content -->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the worlds largest university</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio nemo hic id autem ipsam impedit
+                    magnam eum voluptatem ex praesentium reprehenderit ut quo sint, sapiente minima incidunt, nam alias!
+                    Accusantium corrupti magni magnam quia alias! Enim veniam perferendis numquam saepe? Id, aspernatur
+                    vero. Alias molestiae, tenetur exercitationem quasi tempora architecto.</p>
+                    <a href=""class="botton red-btn">Explore Now</a>
+            </div>
+            <div class="about-col">
+              <img src="./about.jpg" alt="image">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer">
+        <h4>ABOUT US</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel dolores unde neque earum sit vero expedita
+            debitis molestias vitae.<br> Commodi nostrum repellat debitis exercitationem deleniti, laborum totam beatae
+            eius
+            nihil!</p>
+        <div class="icon">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-youtube"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i>by TM </p>
+
+    </section>
+
+
+
+
+
+
+
+
+    <script>
+        let ans = document.getElementById("nav-link");
+        function showmenu() {
+            ans.style.right = "0";
+        }
+        function hidemenu() {
+            ans.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>
